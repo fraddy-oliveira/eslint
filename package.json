@@ -1,0 +1,32 @@
+{
+  "name": "eslint-app",
+  "version": "1.0.0",
+  "description": "Advanced eslint.",
+  "main": "./src/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "echo 'es is linting...'",
+    "lint": "eslint ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraddy-oliveira/eslint.git"
+  },
+  "keywords": [
+    "ES",
+    "syntax",
+    "formatting"
+  ],
+  "author": "Fraddy Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraddy-oliveira/eslint/issues"
+  },
+  "homepage": "https://github.com/fraddy-oliveira/eslint#readme"
+}
