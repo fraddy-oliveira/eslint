@@ -2,15 +2,18 @@
   "name": "eslint-app",
   "version": "1.0.0",
   "description": "Advanced eslint.",
-  "main": "./src/main.js",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2"
+    "eslint-plugin-import": "^2.24.2",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
   },
   "scripts": {
     "start": "node ./src/main.js",
+    "build": "webpack",
     "test": "echo 'es is linting...'",
     "lint": "eslint ./src/"
   },
